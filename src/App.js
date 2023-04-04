@@ -27,7 +27,7 @@ const App = () => {
   }
   return (
     <div>
-      <Router>
+      <Router basename='/newsPaper'>
         <Navbar mode={mode} text={text} toggleMode={toggleMode} />
         <LoadingBar
           color='#f11946'
